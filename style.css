@@ -1,0 +1,70 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+    font-weight: 400;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 7px;
+    background: #fff;
+    flex: 0 0 80%;
+}
+
+button {
+    display: block;
+        font-size: 1.1rem;
+        margin: 1rem auto;
+        padding: .6rem 1.2rem;
+        color: #fff;
+        background: gold;
+        transition: 2s;
+}
+
+button:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+
+input[type=text] {
+    padding: .5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    border: 3px solid black;
+    box-shadow: 1 0 10px gold;
+}
+
+#messageOut {
+    margin: .5rem 0;
+    color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
